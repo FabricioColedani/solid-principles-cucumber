@@ -1,0 +1,15 @@
+{
+  "name": "prolema2-cucumber",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p .",
+    "test:cucumber": "npm run build && cucumber-js \"features/**/*.feature\" -r \"dist/features/**/*.js\""
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "@types/node": "^18.0.0"
+  }
+}

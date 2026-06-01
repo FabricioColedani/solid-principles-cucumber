@@ -1,7 +1,6 @@
 # Trabajo Práctico - Principios SOLID en TypeScript
 
-## Alumno
-
+## AlumnoS
 
 ---
 

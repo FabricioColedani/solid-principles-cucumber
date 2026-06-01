@@ -1,0 +1,17 @@
+{
+  "name": "solid-principles-cucumber",
+  "version": "0.1.0",
+  "description": "Ejemplo de SOLID con Cucumber en TypeScript para un sistema de envíos.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run cucumber",
+    "cucumber": "cucumber-js --require-module ts-node/register --require features/**/*.ts features"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.5.0"
+  }
+}
